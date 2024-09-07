@@ -265,7 +265,6 @@ export const ObsidianFlavoredMarkdown: QuartzTransformerPlugin<Partial<Options>>
                       const aspect = width / height
                     return {
                       type: "html",
-                      value: `<iframe src="${url}"></iframe>`,
                       value: `<iframe style="width:100%;aspect-ratio:${aspect}" src="${url}#view=FitH"></iframe>`,
                     }
                   } else {
