@@ -13,7 +13,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: {
       provider: 'google',
-      tagId: 'G-V3N0GT64BK'
+      tagId: 'V3N0GT64BK'
     },
     locale: "fr-FR",
     baseUrl: "mido.exatio.me",
